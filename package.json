@@ -1,0 +1,21 @@
+{
+  "name": "rflex",
+  "version": "1.0.0",
+  "description": "Fast and responsive front-end framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --expose-gc ./node_modules/mocha/bin/mocha --require @babel/register --timeout 5000 --recursive ./**/*.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "oculusx": "^0.4.0",
+    "slim-js": "^4.0.5"
+  }
+}
